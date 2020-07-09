@@ -1,0 +1,11 @@
+CREATE DATABASE aula5;
+
+USE aula5;
+
+CREATE TABLE pessoa(
+id INT PRIMARY KEY AUTO_INCREMENT,
+nome VARCHAR(50),
+idade INT(3),
+foto VARCHAR(150));
+
+DESC pessoa;
